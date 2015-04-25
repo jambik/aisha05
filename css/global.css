@@ -1,0 +1,118 @@
+body { font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif; font-size: 14px; background:#000; }
+.container {  }
+.ubuntu { font-family: "Ubuntu Condensed"; }
+.shadow { background: #fff; box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 1); }
+.text-shadow { text-shadow: 1px 1px 2px #222; }
+.padding-10 { padding: 10px; }
+.height-10 { font-size: 0.01%; height: 10px; }
+
+a { color: #483205; }
+a:hover { color: #d0a10e; }
+
+.glow { background:url("../img/top-glow.png") top center no-repeat; }
+.logo {  }
+.sublogo { letter-spacing:15px; color:#6a4801; border-top:1px solid #f7e2ad; display:inline-block; position:relative; top:-15px; }
+.sublogo .top-line { size: 0.001%; height:1px; background:#6e5a39; }
+.sublogo .slogan-words { text-transform:uppercase; margin-top:10px; }
+
+nav { background:#483205; }
+nav .container { padding:12px 0; }
+nav ul { list-style:none; margin:0; padding:0; }
+nav li { display:block; float:left; width:16%; text-align:center; }
+nav li a { color:#fffeb9; text-transform:uppercase; }
+nav li.wave { width:10%; background:url("../img/wave.png") center no-repeat; }
+
+#splash { background:#111; }
+#splash { text-align:center; font-family: "Ubuntu Condensed"; color:#eee; text-transform:uppercase; }
+#splash .line-1 { font-size:20px; margin-top:20px; }
+#splash .line-2 { font-size:40px; margin: 70px 30px 0 30px; padding-bottom:10px; border-bottom:2px solid #eee; }
+#splash .line-3 { font-size:21px; margin: 20px 30px 0 30px; }
+#splash .line-4 { font-size:18px; margin: 80px 30px 0 30px; }
+#splash .line-5 { font-size:16px; margin-top:60px; color:#ecb200; }
+
+.light h2 { font-size:26px; text-align:center; color:#483205; margin-top:30px; }
+.dark h2 { font-size:26px; text-align:center; margin-top:30px; color:#fff; }
+.light .caption-hr { font-size:0.001%; height:2px; background:#483205; border-bottom:1px solid #987327; width:40%; margin:0 auto 40px auto; }
+.dark .caption-hr { font-size:0.001%; height:2px; background:#eee; border-bottom:1px solid #bbb; width:40%; margin:0 auto 40px auto; }
+
+#weare { background:#eee; }
+#weare .row div { text-align:center; }
+#weare .row p { text-align:center; text-transform:uppercase; font-size:12px; margin-top:20px; }
+#weare .about { border-top: 1px solid #d0a10e; padding-top:20px; margin:40px 0 50px 0; }
+
+#actions { background: #000; padding-bottom: 40px; }
+
+#vacancies { background: #eee; }
+#vacancies .about { border-top: 1px solid #d0a10e; padding-top:20px; margin:40px 0 50px 0; }
+
+#services { background:#d0a10e; }
+.service-item { margin-bottom:30px; max-width:263px; border-radius: 5px; box-shadow: 1px 1px 3px 0px rgba(50, 50, 50, 0.2); }
+.service-item .service-name { border-top-left-radius: 5px; border-top-right-radius: 5px; height:36px; overflow:hidden; font-size:14px; text-transform:uppercase; padding:8px; background: linear-gradient(to top, #f5eac7, #fff); }
+.service-item img { border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+#services .services-about { border-top: 1px solid #fff; text-align:center; padding-top:20px; margin:40px 0 50px 0; }
+
+#portfolio { background:#eee; }
+#portfolio ul { padding:0; margin:0; list-style:none; }
+#portfolio ul li { font-size:16px; text-transform:uppercase; margin:0 0 20px 0; }
+#portfolio .portfolio-image { padding:4px; margin-bottom:30px; cursor:pointer; background:#fff; border:1px solid #ddd; border-radius:3px; box-shadow: 1px 1px 2px 0px rgba(50, 50, 50, 0.1); }
+
+#scheme-of-work { background:#d0a10e; padding-bottom:50px; }
+#scheme-of-work .circle { height:60px; width:60px; background:#eee; line-height:60px; font-size:40px; color:#d0a10e; text-shadow: 1px 1px 1px #bbb; display:inline-block; border-radius:30px; }
+#scheme-of-work p { color:#eee; margin:10px 0 0 0; }
+
+#contacts { background:#eee; }
+#contacts .dl-horizontal dt { text-align: left; text-transform: uppercase; font-weight: normal; }
+#contacts .dl-horizontal { margin-bottom:60px; }
+#contacts strong { display:inline-block; font-size:14px; margin:0 0 10px 0; text-transform:uppercase; }
+
+#feedback { background: #d0a10e; }
+
+#footer { padding:10px 0 30px 0; color:#eee; }
+
+.col-x5 { position: relative; font-size:13px; text-align:center; text-transform:uppercase; min-height: 1px; margin: 0 0 30px 0; padding-right: 10px; padding-left: 10px; width: 20%; float: left; }
+.col-x5 p { height:50px; }
+
+/* mobile small - less than 480 */
+@media (max-width: 479px) {
+	#splash .line-1 { font-size:14px; margin-top:10px; }
+	#splash .line-2 { font-size:16px; margin: 25px 30px 0 30px; }
+	#splash .line-3 { font-size:14px; margin: 20px 30px 0 30px; }
+	#splash .line-4 { font-size:14px; margin: 30px 30px 0 30px; }
+	#splash .line-5 { font-size:14px; margin-top:20px; }
+	.sublogo { letter-spacing:3px; }
+	.service-item { margin-left:auto; margin-right:auto; }
+	#portfolio ul { margin-left:auto; margin-right:auto; text-align:center; }
+	.portfolio-image { margin-left:auto; margin-right:auto; }
+	nav li { display:block; width:100%; text-align:center; margin:5px 0; }
+	nav li.wave { display:none; }
+	.col-x5 { width: 100%; }
+}
+
+/* mobile - 480 and up */
+@media (min-width: 480px) and (max-width: 767px) {
+	.service-item { margin-left:auto; margin-right:auto; }
+	#portfolio ul { margin-left:auto; margin-right:auto; text-align:center; }
+	.portfolio-image { margin-left:auto; margin-right:auto; }
+	nav li { display:block; width:100%; text-align:center; margin:5px 0; }
+	nav li.wave { display:none; }
+	.col-x5 { width: 50%; }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+	#splash .line-1 { font-size:14px; margin-top:10px; }
+	#splash .line-2 { font-size:16px; margin: 25px 30px 0 30px; }
+	#splash .line-3 { font-size:14px; margin: 20px 30px 0 30px; }
+	#splash .line-4 { font-size:14px; margin: 30px 30px 0 30px; }
+	#splash .line-5 { font-size:14px; margin-top:20px; }
+	.col-x5 { width: 33%; }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+	#splash .line-1 { margin-top:20px; }
+	#splash .line-2 { margin: 40px 30px 0 30px; }
+	#splash .line-3 { margin: 20px 30px 0 30px; }
+	#splash .line-4 { margin: 30px 30px 0 30px; }
+	#splash .line-5 { margin-top:30px; }
+}
